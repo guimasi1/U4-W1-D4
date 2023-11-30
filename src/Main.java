@@ -12,7 +12,7 @@ public class Main {
             dipendente2.promuovi();
         }
         System.out.println(dipendente2.toString());
-        System.out.println(dipendente2.calcoalPaga(dipendente2, 10));
+        System.out.println(dipendente2.calcolaPaga(dipendente2, 10));
     }
 
 }

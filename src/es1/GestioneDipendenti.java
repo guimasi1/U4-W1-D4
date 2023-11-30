@@ -17,7 +17,7 @@ public class GestioneDipendenti {
             System.out.println(dipendente.toString());
         }
         for (Dipendente dipendente: dipendenti) {
-            System.out.println(dipendente.calcoalPaga(dipendente,5));
+            System.out.println(dipendente.calcolaPaga(dipendente,5));
         }
     }
 }

@@ -107,7 +107,7 @@ public class Dipendente {
         return dipendente.getStipendio();
     }
 
-    public double calcoalPaga(Dipendente dipendente, int oreDiStraordinario) {
+    public double calcolaPaga(Dipendente dipendente, int oreDiStraordinario) {
         return dipendente.getStipendio() + dipendente.importoOrarioStraordinario * oreDiStraordinario;
     }
 
